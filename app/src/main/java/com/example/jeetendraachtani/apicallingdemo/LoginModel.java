@@ -26,6 +26,12 @@ public class LoginModel {
     @SerializedName("email")
     public String email;
 
+    @SerializedName("access_token")
+    public String access_token;
+
+    @SerializedName("user_id")
+    public String user_id;
+
 
    /* public String username;
     public String email;
